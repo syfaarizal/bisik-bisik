@@ -76,7 +76,7 @@ Not intended for production (yet), but perfect as:
 
 ---
 
-## 📌 Roadmap (Optional)
+## 📌 Roadmap
 - Admin-only message deletion
 - Better moderation controls
 - Public / private mode
