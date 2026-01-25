@@ -27,7 +27,7 @@ const MessageCard = ({ message, index }) => {
         </div>
         
         <div className="py-2 pl-1 border-l-[3px] border-soft-red-light ml-3">
-          <p className="text-gray-800 text-sm whitespace-pre-wrap leading-relaxed pl-4 font-medium">
+          <p className="text-gray-800 text-sm whitespace-pre-wrap leading-relaxed pl-4 font-medium break-words">
             "{message.text}"
           </p>
         </div>

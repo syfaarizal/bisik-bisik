@@ -84,7 +84,7 @@ const MessageForm = ({ onSubmit, isSubmitting }) => {
                 placeholder="Mau bisikin apa nih?"
                 required
                 maxLength="280"
-                className="w-full bg-gray-50 border border-gray-300 rounded-xl px-4 py-3.5 text-base md:text-sm font-medium focus:outline-none focus:border-soft-red-dark focus:ring-2 focus:ring-soft-red-light focus:bg-white transition-all duration-300 placeholder-gray-400 text-charcoal resize-none"
+                className="w-full bg-gray-50 border border-gray-300 rounded-xl px-4 py-3.5 text-base md:text-sm font-medium focus:outline-none focus:border-soft-red-dark focus:ring-2 focus:ring-soft-red-light focus:bg-white transition-all duration-300 placeholder-gray-400 text-charcoal resize-none break-words"
               />
               <div className={`text-right text-[10px] mt-1 font-bold ${charCount >= 280 ? 'text-red-500' : 'text-gray-400'}`}>
                 {charCount}/280
